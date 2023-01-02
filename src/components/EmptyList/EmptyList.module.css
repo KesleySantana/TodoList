@@ -1,0 +1,42 @@
+.empty {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 4rem 1.5rem;
+    gap: 1rem;
+    
+    width: 46rem;
+    height: 15.25rem;
+
+    border-top: 1px solid #333333;
+    border-radius: 8px;
+
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.empty p{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+
+    font-size: 0.9rem;
+    font-weight: 400;
+    text-align: center;
+
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+
+    color: #808080;
+}
+
+.empty p:first-child {
+    font-weight: 700;
+}
