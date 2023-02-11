@@ -35,7 +35,7 @@ export function Task({ task, onDeleteTask , onToggleIsChecked  }:TaskProps) {
                 </p>
             </div>
                 <button
-                onClick={() => handleDeleteTask}
+                onClick={() => handleDeleteTask()}
                 className={styles.trash}>
                 <Trash
                 size={ 24 }

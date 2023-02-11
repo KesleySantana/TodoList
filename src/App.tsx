@@ -1,5 +1,5 @@
 import { PlusCircle, TiktokLogo } from 'phosphor-react';
-import { ButtonHTMLAttributes, useState } from 'react';
+import { ButtonHTMLAttributes, useEffect, useState } from 'react';
 import  styles from './App.module.css';
 import { EmptyList } from './components/EmptyList/EmptyList';
 import { Task } from './components/Task/Task';
@@ -70,8 +70,6 @@ function ordenarChecked() {
     return 0
   }))
 }
-
-
 
     return(
       <div className={ styles.body }>
