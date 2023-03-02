@@ -32,7 +32,7 @@ const taskChecked = tasks.filter(task => task.isChecked).reduce((total = 1, task
 
 function handleCreateTask() {
 
-  if(task === '' || task.indexOf(' ') >= 0){
+  if(task.length == 0){
     return toast.error("Digite uma tarefa!")
   }
   const newTask = {

@@ -23,17 +23,16 @@
 
 .pFalse {
     color:  #F2F2F2;
-    font-size: 0,875rem;
+    font-size:14px;
     font-weight: 100;
     line-height: 1.25rem;   
 }
 
 .pTrue {
     color:  #f2f2f2ad;
-    font-size: 0,875rem;
+    font-size: 14px;
     font-weight: 100;
-    line-height: 1.25rem;
-    text-decoration: line-through;
+    text-decoration-line: line-through;
 }
 
 
@@ -68,7 +67,7 @@ button {
 }
 
 .circle:checked {
-    background-color:rgba(0, 199, 0, 0.462);
+    background-color: #5E60CE;
     border: none;
 }
 .trash {
