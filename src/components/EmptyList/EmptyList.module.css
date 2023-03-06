@@ -40,3 +40,12 @@
 .empty p:first-child {
     font-weight: 700;
 }
+
+
+
+@media (max-width:745px) {
+    .empty {
+        width: 36rem;
+        height: 15.25rem;    
+    }   
+}

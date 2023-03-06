@@ -77,3 +77,10 @@ button {
 .trash:hover {
     color: #E25858;
 }
+
+
+@media(max-width:745px) {
+    .task {
+        width: 36rem;
+    }
+}
